@@ -1,1 +1,7 @@
-
+requests
+random
+time
+datetime
+logging
+json
+python-dotenv
