@@ -1,6 +1,15 @@
+import os
 from instabot import InstaBot
+from dotenv import load_dotenv
 
-bot = InstaBot(login="your_login", password="your_password",
+# Load the environment variables from the .env file
+load_dotenv()
+
+# Get the login and password from the environment variables
+login = os.getenv("LOGIN")
+password = os.getenv("PASSWORD")
+
+bot = InstaBot(login=login, password=password,
                like_per_day=1000,
                max_like_for_one_tag=5,
                follow_per_day=150,
