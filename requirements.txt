@@ -5,4 +5,4 @@ webdriver-manager==3.8.4  # For managing Selenium WebDrivers
 tqdm==4.64.0  # For progress bars
 instaloader==4.10.2  # For advanced Instagram interaction
 beautifulsoup4==4.11.1  # For HTML parsing (if needed for specific features)
-json  # For parsing JSON responses
+
