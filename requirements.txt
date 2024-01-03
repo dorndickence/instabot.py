@@ -6,13 +6,3 @@ tqdm==4.64.0  # For progress bars
 instaloader==4.10.7  # For advanced Instagram interaction
 beautifulsoup4==4.11.1  # For HTML parsing (if needed for specific features)
 json  # For parsing JSON responses
-
-
-/*Additional notes:
-
-- If using Selenium, specify compatible WebDrivers (e.g., `chromedriver-binary==105.0.5195.52`).
-- Include any other specific libraries required for features not mentioned in the code snippets.
-- Use compatible library versions to avoid conflicts.
-- Refer to Instagram's terms of service and community guidelines before using automation tools.
-- Consider ink361's terms of service and usage limits if using the `UserInfo` class.
-- Regularly update dependencies for security and performance.*/
